@@ -11,7 +11,7 @@
     src,
   } @ inp:
     (dream2nix.lib.makeFlakeOutputs {
-      systems = ["x86_64-linux"];
+      systems = ["x86_64-linux", "aarch64-linux"];
       config.projectRoot = ./.;
       source = src;
       settings = [
