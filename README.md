@@ -4,5 +4,7 @@ Example usage:
 ```
 nix build git+https://github.com/r2r-dev/b3-flake#default
 
-strace -f cat /etc/passwd |& ./result/bin/b3 | jq -s
+strace -f cat /etc/motd |& ./result/bin/b3 | jq -s
 ```
+
+![example](https://user-images.githubusercontent.com/39031033/227059163-f9249cb5-706c-46e7-a2a5-c1e15fcd7465.gif)
