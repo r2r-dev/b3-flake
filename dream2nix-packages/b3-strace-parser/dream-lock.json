@@ -1,10 +1,10 @@
 {
     "_generic": {
-      "defaultPackage": "b3-strace-parser",
+      "defaultPackage": "b3",
       "invalidationHash": "66bec88ef341acf873ed88a52c25acd77abb5796ca75edc76d8cb1be3710d269",
       "location": "",
       "packages": {
-        "b3-strace-parser": "0.3.0"
+        "b3": "0.3.0"
       },
       "sourcesAggregatedHash": null,
       "subsystem": "nodejs"
@@ -65,7 +65,7 @@
           [ "array-uniq", "1.0.3" ]
         ]
       },
-      "b3-strace-parser": {
+      "b3": {
         "0.3.0": [
           [ "commander", "2.20.3" ],
           [ "debug", "4.3.4" ],
